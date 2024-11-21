@@ -1,11 +1,14 @@
 package main
 
-import simple "1brc-go/simple"
+import (
+	"1brc-go/advanced"
+)
 
 const (
 	dataFilePath = "../1brc/measurements.txt"
 )
 
 func main() {
-	simple.Simple(dataFilePath)
+	// simple.Simple(dataFilePath)
+	advanced.CustomMmap(dataFilePath)
 }
