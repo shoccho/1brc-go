@@ -10,5 +10,6 @@ const (
 
 func main() {
 	// simple.Simple(dataFilePath)
-	advanced.CustomMmap(dataFilePath)
+	// advanced.CustomMmap(dataFilePath)
+	advanced.ParallelMmap(dataFilePath)
 }
